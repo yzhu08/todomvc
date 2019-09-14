@@ -16,6 +16,7 @@ To run the server, cd into the `server` folder and run:
 ```bash
 mvn spring-boot:run
 ```
+Test Rest Api at http://localhost:8088 to add/remove/get/update todoItem
 
 To run the client, cd into the `client` folder and run:
  

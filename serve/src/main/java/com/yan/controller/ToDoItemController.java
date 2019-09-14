@@ -41,4 +41,11 @@ public class ToDoItemController {
     public void delete(@PathVariable("id")String id){
          toDoItemRepository.delete(id);
     }
+
+    @RequestMapping(value = "/todos", method = RequestMethod.DELETE)        // or use @DeleteMapping
+    public void deleteAll(){
+        toDoItemRepository.deleteAll();
+    }
+
+
 }

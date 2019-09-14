@@ -10,4 +10,5 @@ public interface ToDoItemService {
     ToDoItem save(ToDoItem toDoItem);
     void delete(String id);
     ToDoItem update(ToDoItem toDoItem);
+    void deleteAll();
 }

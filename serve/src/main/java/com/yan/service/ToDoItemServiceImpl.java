@@ -34,4 +34,7 @@ public class ToDoItemServiceImpl implements ToDoItemService {
     public ToDoItem update(ToDoItem toDoItem) {
         return toDoItemRepository.save(toDoItem);
     }
+
+    @Override
+    public void deleteAll(){toDoItemRepository.deleteAll();}
 }
